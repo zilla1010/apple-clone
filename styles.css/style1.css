@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.major{
+    
+    display: flex;
+    background-color: #323232;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+    
+
+
+
+}
+.major a{
+    color: #b5b3b3;
+    font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.ad1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ad1 img{
+    max-height: 550px;
+    min-height: 200px;
+    padding-top: 30;
+
+}
+.padw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.padw h1{
+    font-size: 70px;
+    font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-seri ;
+    font-weight: 400;
+    
+}
+.padw h4{
+    font-size: 25px;
+
+}
+.padw a{
+    font-size: 21px;
+    color: rgb(0, 102,204);
+}
+.ip14ad{
+    background-color: black;
+    display: flex; 
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.ip14ad h1{
+    color: white;
+    font-size: 60;
+    font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-seri ;
+}
+.ip14ad h4{
+    color: white;
+    font-size: 30px;
+    font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-seri ;
+
+}
+.ip14ad a{
+    color: rgb(0, 102,204);
+    font-size: 20;
+    
+}
+.ip14ad img{
+    height: 600;
+}
+.phoneson{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #FBFBFD;
+}
+.phoneson h1{
+    font-size: 70px;
+    font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-seri ;
+}
+.phoneson img{
+    height: 350;
+}
+.phoneson h4{
+    font-size: 30px;
+    font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-seri ;
+
+}
+.produts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+}
+.produts img{
+    height: 584;
+    
+}
+footer{
+    height:450px;
+    background-color: #F5F5F7;
+    display: flex;
+    gap: 16px;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ender{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ender a{
+    color:#424245;
+    font-size: 14px;
+    
+    font-weight: 400;
+
+}
+.seci{
+    background-color: #F5F5F7;
+    display: flex;
+    
+    justify-content: center;
+    gap: 150px;
+    padding-top: 60;
+}
+.seci hr{
+    width: 80%;
+    display: none;
+}
+.state hr{
+    width: 800px;
+}
+.state a{
+    display:flex ;
+    gap: 4px;
+}
+.state{
+    padding-top: 40;
+}
+.rer {
+    display: flex;
+
+
+}
+.see12{
+    display: flex;
+}
+.rer hr{
+    height: 12;
+    
+}
+.neo{
+    color: #b5b3b3;
+        font-family:"SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+        font-size: 12px;
+        font-weight: 400;
+
+}
+
+@media  screen and (max-width:832px ){
+    .neo{
+        display: none;
+    
+    }
+
+    .ad1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .padw h1{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .padw h4{
+        font-size: 20px;
+    }
+    .padw a{
+        font-size: 15;
+    }
+    .ad1 img{
+        max-height: 420;
+        min-height:220 ;
+    }
+
+    .ip14ad h1{
+        font-size: 30px;
+    }
+    .ip14ad h4{
+        font-size: 24px;
+    }
+    .ip14ad img{
+        height: 250;
+    }
+    .ip14ad{
+        width: 100%;
+    }
+
+    .phoneson h1{
+        font-size: 37px;
+        
+    }
+    .phoneson h4{
+        font-size: 15px;
+    }
+    .phoneson img{
+        height: 279px;
+    }
+    .produts{
+        display: flex;
+        flex-direction: column;
+    }
+    .produts img{
+        height: 299px;
+    }
+    .dies{
+        display: none;
+    }
+    .seci{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 22px;
+    }
+    .ender{
+        display: flex;
+        justify-content: flex-start;
+        padding-right: 250px;
+    }
+    .seci hr{
+        display: block;
+    }
+    .state{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+    .state hr{
+        display: none;
+    }
+    .see12 p{
+        font-size: 12px;
+        display: flex;
+        
+    }
+
+    
+   
+
+
+}
